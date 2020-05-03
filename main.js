@@ -11,7 +11,7 @@
             if (n >= code.length) {
                 clearInterval(id)
             }
-        }, 20)
+        }, 1)
     }
     let code = `/*         画一只皮卡丘         */
 
@@ -127,8 +127,8 @@
 }
 
 /*
- * 左侧上嘴唇：借助盒子的 border-radius 属性改变形状，
-              并且旋转
+ * 左侧上嘴唇：借助盒子的 border-radius 属性
+               改变形状,并且旋转
  */
 .upperLip-left {
     border-right: none;
@@ -161,7 +161,8 @@
 }
 
 /*
- * 嘴巴：条形椭圆，只保留下面部分，其余部分被嘴巴容器遮住
+ * 嘴巴：条形椭圆，只保留下面部分，
+         其余部分被嘴巴容器遮住
  */
 .mouth {
     position: absolute;
